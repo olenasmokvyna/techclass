@@ -1,0 +1,22 @@
+{
+  "name": "techclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olenasmokvyna/techclass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olenasmokvyna/techclass/issues"
+  },
+  "homepage": "https://github.com/olenasmokvyna/techclass#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
