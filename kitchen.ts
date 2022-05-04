@@ -8,7 +8,6 @@ function bake() {
   }, 2000);
 }
 //bake();
-console.log("hello");
 
 function sleep(amount: number): Promise<void> {
   const p: Promise<void> = new Promise(function (resolve, reject) {
@@ -20,9 +19,17 @@ function sleep(amount: number): Promise<void> {
 }
 
 function lunch() {
-  console.log("cutting vegetables");
+  console.log("lunch: cutting vegetables");
   sleep(2000).then(function () {
-    console.log("cooking the meat");
+    console.log("lunch: cooking the meat");
   });
 }
 lunch();
+
+function dinner() {
+  console.log("dinner: heating lunch leftovers");
+  sleep(3000).then(function () {
+    console.log("dinner: getting a dessert");
+  });
+}
+dinner();
