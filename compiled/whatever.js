@@ -8,29 +8,29 @@
 //     banana: true,
 //     apple: 'sliced',
 // };
-var banana = {
+const banana = {
     name: "banana",
     color: "yellow",
     price: 1.5,
     local: true,
 };
-var apple = {
+const apple = {
     name: "apple",
     color: "red",
     price: 1.75,
     local: true,
 };
-var avocado = {
+const avocado = {
     name: "avocado",
     color: "green",
     price: 2.0,
     local: false,
 };
-var cart = {
+const cart = {
     items: [],
 };
 function BuyApples(cart, count) {
-    for (var i = 0; i < count; i++) {
+    for (let i = 0; i < count; i++) {
         cart.items.push(apple);
     }
 }
@@ -47,7 +47,7 @@ function pretty2(cart) {
         return "Empty cart";
     }
     else {
-        return "Cart has: " + cart.items.length;
+        return `Cart has: ${cart.items.length}`;
     }
     // return JSON.stringify(cart, null, 2)
 }

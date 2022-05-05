@@ -1,4 +1,4 @@
-var snack = {
+let snack = {
     orange: "juice",
     banana: true,
     kiwi: "do not like",
