@@ -23,5 +23,3 @@ const startAsync = async (callback) => {
   callback("To Async Await Using TypeScript");
 };
 startAsync((text) => console.log(text));
-
-//-----------------------------Promise
